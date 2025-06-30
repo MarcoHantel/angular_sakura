@@ -1,0 +1,28 @@
+
+.pic-your-order {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    >.order-ramen {
+        margin: 0;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+                    padding-bottom: 120px;
+
+        >.image-one {
+            height: 128px;
+            width: 128px;
+            background-color: aqua;
+            margin: 32px 0px;
+        }
+
+        h3 {
+            font-family: "Raleway";
+            font-size: 32px;
+            font-weight: bold;
+            text-align: center;
+        }
+    }
+}
