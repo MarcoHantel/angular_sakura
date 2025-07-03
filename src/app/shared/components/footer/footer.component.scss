@@ -17,10 +17,19 @@ footer {
 
     >.social-logo {
         margin-right: 50px;
+        display: flex;
+        align-items: center;
 
         >img {
             width: 40px;
             height: 40px;
+            margin-left: 16px;
+        }
+
+        >a {
+            text-decoration: none;
+            color: white;
+            font-family: 'Raleway';
             margin-left: 16px;
         }
     }
