@@ -1,0 +1,27 @@
+footer {
+    background-color: #0A141E;
+    height: 144px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+    >.sakura-logo {
+        margin-left: 50px;
+
+        >img {
+            height: 44px;
+
+        }
+    }
+
+    >.social-logo {
+        margin-right: 50px;
+
+        >img {
+            width: 40px;
+            height: 40px;
+            margin-left: 16px;
+        }
+    }
+}
